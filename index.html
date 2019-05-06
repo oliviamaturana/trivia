@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>Trivia!</h1>
+    <select id="amount">
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="30">30</option>
+    </select>
+    <select id="category">
+        <option value="9">General Knowledge</option>
+        <option value="20">Mythology</option>
+        <option value="21">Sports</option>
+        <option value="23">History</option>
+        <option value="26">Celebrities</option>
+        <option value="28">Vehicles</option>
+        <option value="22">Geography</option>
+    </select>
+    <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+    </select>
+
+    <button id= "butt" onclick="go()">GO</button>
+    <div id = "myDiv"></div>
+    <div id="score">Yo score iz:</div>
+
+    <button id="grader" onclick="grader()">Get your grade</button>
+</body>
+</html>

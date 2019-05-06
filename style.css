@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background-color: cornflowerblue;
+    font-family: "Apple Symbols";
+}
+h1{
+    font-size: 100px;
+    font-weight: 900;
+}
+
+#amount{
+    font-size: 25px;
+
+}
+#category{
+    font-size: 25px;
+}
+#difficulty{
+    font-size: 25px;
+}
+#butt{
+    font-size: 35px;
+    font-weight: bold;
+}
+#grader{
+    font-size: 35px;
+    font-weight: bold;
+}
+#myDiv{
+    font-size: 35px;
+    width: 90%;
+    margin: auto;
+
+}
+#score{
+    font-size: 60px;
+}
